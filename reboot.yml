@@ -1,7 +1,7 @@
-- name: Reboot system
+- name: Reboot System
   hosts: all
   tasks:
-    - name: Reboot system
+    - name: Reboot System
       command: reboot
     - name: Wait for system to become reachable after reboot
       local_action: 
