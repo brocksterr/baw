@@ -1,4 +1,4 @@
 - name: List * packages and register result to print with debug later.
   yum:
     list: *
-  register: result
+    register: result
