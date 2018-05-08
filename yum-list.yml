@@ -1,7 +1,0 @@
-- name: List Update Packages
-  hosts: all
-  tasks:
-    - name: List all packages and register result to print with debug later.
-      yum:
-        list: '*'
-        register: result
