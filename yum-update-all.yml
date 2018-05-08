@@ -7,5 +7,4 @@
         state: latest
     - name: Reboot System
       command: 'systemctl reboot -i' 
-    - name: Waiting for system to boot
       local_action: wait_for host={{ ansible_ssh_host }} state=started 
