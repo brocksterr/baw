@@ -5,7 +5,5 @@
       yum:
         name: '*'
         state: latest
-      msg: "System up to date"
     - name: Reboot System
       command: 'systemctl reboot -i' 
-      msg: "System rebooting"
