@@ -1,0 +1,5 @@
+- name: system date 
+  hosts: all
+  tasks:
+    - name: system date
+      command: date
