@@ -4,4 +4,4 @@
     - name: List kernel packages and register result to print with debug later.
       yum:
         list: kernel
-        register: result
+      register: result
